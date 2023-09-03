@@ -1,6 +1,6 @@
 # To-Do List Web App
 
-This is a simple to-do list web application built using HTML, CSS,javascript,node and mongodb.
+This is a simple to-do list web application built using HTML, CSS, Javascript, Node and Mongodb.
 
 ## Features
 
