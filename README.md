@@ -1,14 +1,14 @@
 # To-Do List Web App
 
-This is a simple to-do list web application built using HTML, CSS, and JavaScript.
+This is a simple to-do list web application built using HTML, CSS,javascript,node and mongodb.
 
 ## Features
 
-- Add tasks with due dates.
-- Mark tasks as completed.
+- Add tasks with dates.
 - Delete tasks.
-- Filter tasks by status (All, Active, Completed).
-- Local storage to persist tasks between sessions.
+- MongoDB database to store tasks and user data.
+- Seperate tasks by add title to the task list.
+- Accessible anywhere in the world.
 
 ## Live Demo
 
@@ -29,69 +29,15 @@ To run this web app locally, you'll need:
 
    ```shell
    git clone https://github.com/arunvel-01/to-do-list-webapp.git
-
    
 1.Open the project folder in your code editor.
 
-2.Open the index.html file in your web browser.
+2.Open the terminal and enter node app.js and then open your browser enter localhost:3000 to open the app in your local system.
+
 
 Usage
-To add a task, enter a task name and due date, then click the "Add Task" button.
-To mark a task as completed, click the checkbox next to the task.
+To add a task, enter a task name and due date, then click the "+" button.
 To delete a task, click the "Checkbox" button.
-Use the filter buttons to view tasks by status.
-Contributing
-Contributions are welcome! Please follow these steps:
-
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes.
-Commit your changes with descriptive commit messages.
-Push your changes to your fork.
-Submit a pull request to the main repository.
-
-
-I can't directly add files to a GitHub repository, but I can help you create a README file that you can then add to your repository manually. Here's a basic README template you can use for your to-do list web app:
-
-markdown
-Copy code
-# To-Do List Web App
-
-This is a simple to-do list web application built using HTML, CSS, and JavaScript.
-
-## Features
-
-- Add tasks with due dates.
-- Mark tasks as completed.
-- Delete tasks.
-- Filter tasks by status (All, Active, Completed).
-- Local storage to persist tasks between sessions.
-
-## Getting Started
-
-### Prerequisites
-
-To run this web app locally, you'll need:
-
-- A modern web browser (e.g., Chrome, Firefox, Safari).
-- A code editor (e.g., Visual Studio Code, Sublime Text).
-
-### Installation
-
-1. Clone the repository:
-
-   ```shell
-   git clone https://github.com/arunvel-01/to-do-list-webapp.git
-Open the project folder in your code editor.
-
-Open the terminal and enter node app.js and then open your browser enter localhost:3000.
-
-
-Usage
-To add a task, enter a task name and due date, then click the "Add Task" button.
-To mark a task as completed, click the checkbox next to the task.
-To delete a task, click the "Delete" button.
-Use the filter buttons to view tasks by status.
 Contributing
 Contributions are welcome! Please follow these steps:
 
