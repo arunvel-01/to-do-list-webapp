@@ -84,7 +84,8 @@ To run this web app locally, you'll need:
    git clone https://github.com/arunvel-01/to-do-list-webapp.git
 Open the project folder in your code editor.
 
-Open the index.html file in your web browser.
+Open the terminal and enter node app.js and then open your browser enter localhost:3000.
+
 
 Usage
 To add a task, enter a task name and due date, then click the "Add Task" button.
