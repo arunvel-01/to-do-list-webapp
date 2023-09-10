@@ -57,4 +57,3 @@ Arun Vel (Email: arunvelv9253@gmail.com)
 
 Acknowledgments
 This project was inspired by Udemy The complete web development bootcamp.
-Special thanks to Angela-Yu for her guidance.
