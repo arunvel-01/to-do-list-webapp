@@ -3,7 +3,6 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
 require("dotenv").config(); 
-const { job } = require('./cron');
 
 const app = express();
 
@@ -145,8 +144,6 @@ app.post("/delete", async function (req, res) {
     }
   }
 });
-
-job.start();
 
 const port = process.env.PORT || 3000;
 
